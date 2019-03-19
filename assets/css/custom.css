@@ -1,0 +1,31 @@
+body.index{  overflow-y:hidden !important;  overflow-x: scroll;  }
+/* SIGN IN */
+.login-wrapper {  background: linear-gradient(#ffffff, #1f99e2);  padding: 50px;  height: 100%;  }  .login-wrapper > div > div{  float:none;margin:0 auto;  }
+
+/*.dashboard-content{display:none;}*/
+.sent-message-reply{position:relative;left:20%;}
+.header-left .dropdown .dropdown-menu{box-shadow: 2px 3px 5px 0px !important;}
+.sms-text, .sms-sent-text{transition: .3s all;}
+.sms-text:hover{cursor:pointer;background-color: #1f99e2cc !important;}
+.sms-sent-text:hover{cursor:pointer;background-color: #1f99e2cc !important;}
+.thread-item{margin-bottom:10px;border-radius:50px;    padding: 5px 15px;  font-size: 14px;width:auto;display:inline-block;}
+span.thread-time {  margin-bottom: 0px;  display: block;  font-size: 11px;  color: #777;  margin-top: 10px;  }
+.thread-container{max-height:300px;overflow-x:auto;}
+.port-container{display:block;width:100%;margin-top:10px;}.port-container .reply-ports {  cursor: pointer;  } .port-container label {cursor:pointer;  margin-right: 30px;  vertical-align: middle;  margin-left: 5px;  }
+.reply-functions-container{width:100%;display:block;}
+
+.badge-new {  color: #fff;  background-color: red;  margin-right: 15px;  display:block;}
+.sms-import-container{float:right;}
+
+form#import-form, form#export-form{display:inline-block;}
+#add_contact{cursor:pointer;float:right;}.modal-content{box-shadow: 0px 0px 15px 0px #1f99e2;}
+.req-field{color:red;}
+
+.nav-tabs .nav-link{border:1px solid #eee;}
+#nav-tabContent{background-color:#fff;border:1px solid #eee;}
+#sendContainer .form-group{margin-bottom:0px }
+
+
+.navbar-nav li.active {
+    border-bottom: 2px solid #1f99e2;
+}
